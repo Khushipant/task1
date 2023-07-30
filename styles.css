@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Victor+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&family=Victor+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color:#545158;
+    width:300px;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 36px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+}
+
+.main{
+    /*background-color: yellow;*/
+    width: 300px;
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+
+}
+
+.info{
+    /*background-color: rgb(170, 10, 79);*/
+    height: 78vh;
+    width: 80vw;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+.hello{
+    font-size: 50px;
+    font-family: 'Rajdhani', sans-serif;
+}
+.name{
+    font-size: 40px;
+    font-family: 'Victor Mono', monospace;
+
+}
+.about{
+    font-size: 30px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.moreabout{
+    font-size: 15px;
+}
+
+.buttons{
+    padding-top: 0.4cm;
+    
+    padding-right: 1cm ;
+}
+.buttons button{
+    margin-top: 5px;
+    font-size: 18px;
+    padding: 8px; ;
+    border-radius: 30px;
+    background-color: #f0661e;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+}
+.buttons button:hover{
+    color:#f0661e;
+    background-color:#ffffff;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color:white;
+}
+.devinfo{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    width:400px;
+}
+.divpic img{
+    width: 42.4vh;
+    mix-blend-mode:hard-light;
+}
+
+div.box {
+    display:inline-flex;
+    padding:50px;
+    
+}
+
+form{
+    padding: 20px;
+    
+    width: 700px;
+    height: 600px; 
+}
+
+div.mb-3{
+    padding: 8px;
+    margin-left: 30px;
+}
+
+div.mb-3 label{
+    font-size: 20px;
+    padding: 8px 0px 3px;
+}
+
+div.mb-3 input{
+    padding: 6px;
+    width: 600px;
+    border-radius: 6px;
+    border-color: transparent;
+    background-color: #c9c6cc
+}
+
+div.mb-3_form-check{
+    padding: 15px 10px;
+    align-content: left;
+    font-size: 20px;
+    width: 400;
+    margin-left: 30px;
+}
+
+div.mb-3_form-check input{
+    width:18px;
+    height:18px;
+    
+    
+}
+
+div.mb-3 textarea.questions{
+    padding: 8px;
+    width: 600px;
+    border-radius: 6px;
+    height:100px;
+    border-color: transparent;
+    background-color: #cecdcf;
+}
+
+
+
+form div button{
+    margin-left: 200px;
+    width:200px;
+    padding: 8px 10px;
+    border-color: #f0661e ;
+    background-color: #f0661e;
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+div.content{
+    padding: 10px;
+    margin-left: 10px;
+    width: 900px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #eeedef;}
+
+div.blogs{
+    margin-bottom: 8px;
+    margin-top: 10px;
+}
+    
+
+div.blogs h3{
+    font-size: 25px;
+    align-content: center;
+}
+
+div.blogs p{
+    font-size: 20px;
+    
+}
+
+div.blogs a{
+    text-decoration:none;
+    color:#545158;
+    font-family: 'Poppins', sans-serif;
+}
+
+div.blogs a:hover{
+    text-decoration:none;
+    color:#3700b3;
+    
+}
+
+div.content img{
+    width: 900px;
+    
+    height:300px;
+    object-fit: cover;
+
+}
