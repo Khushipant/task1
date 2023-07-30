@@ -206,3 +206,8 @@ div.content img{
     object-fit: cover;
 
 }
+
+div.devinfo a{
+    text-decoration: none;
+    color: #ffffff;
+}
